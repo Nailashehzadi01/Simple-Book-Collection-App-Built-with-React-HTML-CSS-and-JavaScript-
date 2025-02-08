@@ -1,0 +1,52 @@
+/* index.css */
+body {
+  background-color: #f4f6f9;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 30px;
+}
+
+.formBox {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-image: url('./assets/library.jpg'); /* Adjust path */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.textField {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #0073e6;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.thankYouMessage {
+  font-weight: bold;
+  color: #4caf50;
+  margin-top: 10px;
+}
